@@ -29,8 +29,12 @@ body {
 
 .cube {
   transform-style: preserve-3d;
-  animation: spin 4s infinite linear;
+  animation: spin 10s infinite linear;
   position: absolute;
+}
+
+.cube:hover {
+  cursor: pointer;
 }
 
 .smallCube div {
@@ -127,4 +131,14 @@ body {
 
 #text {
   box-shadow: none;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  display: none;
+}
+
+.hidden {
+  display: none;
 }
